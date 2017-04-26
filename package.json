@@ -1,0 +1,35 @@
+{
+  "name": "node-linux64-ictclas",
+  "version": "0.0.1",
+  "description": "node linux64 ICTCLAS",
+  "keywords": [
+    "ictclas",
+    "node",
+    "linux64"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/lizhengnacl/ICTCLAS.git"
+  },
+  "author": {
+    "name": "lizhengnacl",
+    "email": "lizhengnacl@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/lizhengnacl/ICTCLAS/issues"
+  },
+  "homepage": "https://gitlab.com/lizhengnacl/ICTCLAS#README",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "node-gyp": "^3.3.1",
+    "should": "^8.2.2"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
